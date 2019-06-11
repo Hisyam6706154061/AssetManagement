@@ -1,0 +1,17 @@
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\Core.exe.config
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\Core.exe
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\Core.pdb
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\EntityFramework.dll
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\EntityFramework.xml
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\MainWindow.g.cs
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\App.g.cs
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core_MarkupCompile.cache
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core_MarkupCompile.lref
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\MainWindow.baml
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core.g.resources
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core.Properties.Resources.resources
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core.csproj.GenerateResource.Cache
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core.exe
+C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\Core\obj\Debug\Core.pdb
