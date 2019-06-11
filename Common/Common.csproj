@@ -64,6 +64,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Repository\IHandoverRepository.cs" />
+    <Compile Include="Repository\IItemRepository.cs" />
+    <Compile Include="Repository\ILoaningRepository.cs" />
+    <Compile Include="Repository\IParameterRepository.cs" />
+    <Compile Include="Repository\IProcurementRepository.cs" />
+    <Compile Include="Repository\IReturnRepository.cs" />
+    <Compile Include="Repository\ITypeRepository.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -104,6 +111,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repository\Application\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{E1A36600-372E-45FA-8CDD-EE2D31D6A697}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
