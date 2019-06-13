@@ -64,6 +64,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Repository\Application\HandoverRepository.cs" />
+    <Compile Include="Repository\Application\ItemRepository.cs" />
+    <Compile Include="Repository\Application\LoaningRepository.cs" />
+    <Compile Include="Repository\Application\ParameterRepository.cs" />
+    <Compile Include="Repository\Application\ProcurementRepository.cs" />
+    <Compile Include="Repository\Application\ReturnRepository.cs" />
+    <Compile Include="Repository\Application\TypeRepository.cs" />
     <Compile Include="Repository\IHandoverRepository.cs" />
     <Compile Include="Repository\IItemRepository.cs" />
     <Compile Include="Repository\ILoaningRepository.cs" />
@@ -112,10 +119,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Repository\Application\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{c669b787-490d-4a87-99f7-958c9b3b71b6}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{E1A36600-372E-45FA-8CDD-EE2D31D6A697}</Project>
       <Name>DataAccess</Name>
