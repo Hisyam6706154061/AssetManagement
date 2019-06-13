@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Tugas Baru\AssetManagement\AssetManagement\App.xaml
-2-79077893
+11559703519
 
-10-1647605937
-18-320589630
-DashboardEmployee.xaml;MainWindow.xaml;
+19-1288604497
+18-701970861
+DashboardEmployee.xaml;MainWindow.xaml;UserControl\UCDashboardAdmin.xaml;UserControl\UCDashboardHeadDivision.xaml;UserControl\UCDataItemAdmin.xaml;UserControl\UCHandoverEmployee.xaml;UserControl\UCLoaningEmployee.xaml;UserControl\UCNotificationAdmin.xaml;UserControl\UCNotificationEmployee.xaml;UserControl\UCNotificationHeadDivision.xaml;UserControl\UCProcurementAdmin.xaml;
 
 False
 

@@ -23,5 +23,10 @@ namespace AssetManagement
         {
             InitializeComponent();
         }
+
+        private void btn_Logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

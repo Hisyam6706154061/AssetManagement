@@ -10,46 +10,70 @@
         <Rectangle Margin="0,0,337,0">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF2281D1" Offset="0,5"/>
-                    <GradientStop Color="#FF3426BA" Offset="1,5"/>
+                    <GradientStop Color="#FF00E8FF" Offset="0"/>
+                    <GradientStop Color="Blue" Offset="1"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
         <TextBlock Text="Employee" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="38,3,373,0" Foreground="Black" FontSize="15" Width="76"/>
         <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\userlogin.png" Width="Auto" Height="63" VerticalAlignment="Top" Margin="35,28,376,0"/>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="136" Margin="10,106,0,0" VerticalAlignment="Top" Width="129">
-
-
+            <ListView>
+                <ListViewItem Height="28" Background="Blue">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\dashboard.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Dasboard1" Text="Dashboard" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\loaning.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Loaning1"  Text="Loaning" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\Handover.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Handover" Text="Handover" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\notifications-button.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Notif1" Text="Notification" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
         </StackPanel>
-        <Rectangle HorizontalAlignment="Left" Height="27" Margin="151,0,0,0" VerticalAlignment="Top" Width="336">
+        <Rectangle Height="27" Margin="151,0,0,0" VerticalAlignment="Top">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF3426BA" Offset="1,5"/>
+                    <GradientStop Color="#FF3426BA"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Label x:Name="label" Content="Dashboard" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="64" Margin="167,60,0,0" VerticalAlignment="Top" Width="301">
-            <Grid Width="300" RenderTransformOrigin="0.174,0.509">
-                <Rectangle Fill="Yellow" HorizontalAlignment="Left" Height="63" VerticalAlignment="Top" Width="135" Margin="0,0,0,0"/>
-                <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\dashboard.png" HorizontalAlignment="Left" Width="30" Height="35" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                <TextBlock x:Name="txt_Dashboard" HorizontalAlignment="Left" Margin="42,0,0,0" TextWrapping="Wrap" Text="Dashboard" VerticalAlignment="Center" FontSize="16"/>
-                <Rectangle Fill="Aqua" HorizontalAlignment="Right" Height="63" VerticalAlignment="Top" Width="135" Margin="15,0,0,0"/>
-                <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\loaning.png" HorizontalAlignment="Left" Width="30" Height="35" VerticalAlignment="Center" Margin="175,0,0,0"/>
-                <TextBlock x:Name="txt_Loaning" HorizontalAlignment="Left" Margin="207,0,0,0" TextWrapping="Wrap" Text="Loaning" VerticalAlignment="Center" FontSize="16"/>
-            </Grid>
-        </StackPanel>
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Height="64" Margin="167,159,0,0" VerticalAlignment="Top" Width="301">
-            <Grid Width="300" RenderTransformOrigin="0.174,0.509">
-                <Rectangle Fill="GreenYellow" HorizontalAlignment="Left" Height="64" VerticalAlignment="Top" Width="138"/>
-                <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\return.png" HorizontalAlignment="Left" Width="30" Height="35" VerticalAlignment="Center" Margin="10,0,0,0"/>
-                <TextBlock x:Name="txt_Return" HorizontalAlignment="Left" Margin="42,21.36,0,20.64" TextWrapping="Wrap" Text="Return" VerticalAlignment="Center" FontSize="16"/>
-                <Rectangle Fill="Red" HorizontalAlignment="Right" Height="63" VerticalAlignment="Top" Width="135"/>
-                <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\notifications-button.png" HorizontalAlignment="Left" Width="30" Height="35" VerticalAlignment="Center" Margin="175,0,0,0"/>
-                <TextBlock x:Name="txt_Notification" HorizontalAlignment="Left" Margin="207,0,0,0" TextWrapping="Wrap" Text="Notification" VerticalAlignment="Center" FontSize="16"/>
-            </Grid>
-        </StackPanel>
+        <Label x:Name="lbl_Dashboard" Content="Dashboard" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
+                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
+                        <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
+                    </StackPanel>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
 
-
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="162,49,0,0" VerticalAlignment="Top" Height="210" Width="315">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID"/>
+                <DataGridTextColumn Header="Form Type"/>
+                <DataGridTextColumn Header="Name Item"/>
+                <DataGridTextColumn Header="Status"/>
+                <DataGridTextColumn Header="Date"/>
+                <DataGridTextColumn Header="Quantity"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock x:Name="txt_History" HorizontalAlignment="Left" Margin="162,28,0,0" TextWrapping="Wrap" Text="History" VerticalAlignment="Top"/>
     </Grid>
 </Window>

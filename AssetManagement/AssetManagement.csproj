@@ -43,6 +43,14 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
@@ -64,6 +72,37 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UserControl\UCDashboardAdmin.xaml.cs">
+      <DependentUpon>UCDashboardAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCDashboardHeadDivision.xaml.cs">
+      <DependentUpon>UCDashboardHeadDivision.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCDataItemAdmin.xaml.cs">
+      <DependentUpon>UCDataItemAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCHandoverEmployee.xaml.cs">
+      <DependentUpon>UCHandoverEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCLoaningEmployee.xaml.cs">
+      <DependentUpon>UCLoaningEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationAdmin.xaml.cs">
+      <DependentUpon>UCNotificationAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationEmployee.xaml.cs">
+      <DependentUpon>UCNotificationEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationHeadDivision.xaml.cs">
+      <DependentUpon>UCNotificationHeadDivision.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCProcurementAdmin.xaml.cs">
+      <DependentUpon>UCProcurementAdmin.xaml</DependentUpon>
+    </Compile>
+    <Page Include="DashboardEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -72,10 +111,49 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DashboardEmployee.xaml.cs">
+      <DependentUpon>DashboardEmployee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UserControl\UCDashboardAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCDashboardHeadDivision.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCDataItemAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCHandoverEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCLoaningEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCNotificationAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCNotificationEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCNotificationHeadDivision.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCProcurementAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -104,6 +182,40 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\userlogin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\loaning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\notifications-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\logout-rounded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\logout2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\Handover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\bookmark-black-shape.png" />
+    <Resource Include="Asset\database.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
