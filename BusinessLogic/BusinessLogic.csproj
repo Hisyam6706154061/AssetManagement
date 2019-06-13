@@ -64,6 +64,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Service\Application\HandoverService.cs" />
+    <Compile Include="Service\Application\ItemService.cs" />
+    <Compile Include="Service\Application\LoaningService.cs" />
+    <Compile Include="Service\Application\ParameterService.cs" />
+    <Compile Include="Service\Application\ProcurementService.cs" />
+    <Compile Include="Service\Application\ReturnService.cs" />
+    <Compile Include="Service\Application\TypeService.cs" />
     <Compile Include="Service\IHandoverService.cs" />
     <Compile Include="Service\IItemService.cs" />
     <Compile Include="Service\ILoaningService.cs" />
@@ -112,10 +119,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Service\Application\" />
-  </ItemGroup>
-  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{EBFCB288-4AE8-41D9-A3BB-75B9D532BBE5}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{c669b787-490d-4a87-99f7-958c9b3b71b6}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{E1A36600-372E-45FA-8CDD-EE2D31D6A697}</Project>
       <Name>DataAccess</Name>

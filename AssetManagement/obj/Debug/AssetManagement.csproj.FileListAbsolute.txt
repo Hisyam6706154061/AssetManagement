@@ -15,3 +15,4 @@ C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagem
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csproj.GenerateResource.Cache
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb
+E:\Tugas Baru\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config

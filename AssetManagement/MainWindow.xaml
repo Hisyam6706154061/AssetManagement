@@ -5,8 +5,28 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:AssetManagement"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Login" Height="500" Width="350">
     <Grid>
-        
+        <Rectangle Height="200" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2281D1"/>
+                    <GradientStop Color="#FF3426BA" Offset="1"/>
+                    <GradientStop Color="#FF33288B" Offset="0.5"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Image Source="" Width="100" Height="100" VerticalAlignment="Top" Margin="20"/>
+        <Rectangle Width="280" Height="240" Fill="White" VerticalAlignment="Bottom" Margin="0,100">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="#FFB8B8B8" Direction="0" BlurRadius="15" RenderingBias="Quality" ShadowDepth="1"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid Width="280" Height="240" VerticalAlignment="Bottom" Margin="0,100">
+            <TextBlock Text="LOGIN" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Foreground="Gray" FontSize="18"/>
+            <TextBlock x:Name="txt_username" HorizontalAlignment="Left" Margin="23,60,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top"/>
+            <TextBox x:Name="txb_username" HorizontalAlignment="Left" Height="23" Margin="23,81,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="231"/>
+
+        </Grid>
     </Grid>
 </Window>
