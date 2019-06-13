@@ -1,42 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.ViewModels;
+using Common.Repository.Application;
+using Common.Repository;
+using DataAccess.Models;
 
 namespace BusinessLogic.Service.Application
 {
     public class TypeService : ITypeService
     {
+        ITypeRepository iTypeRepository = new TypeRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iTypeRepository.Delete(id);
         }
 
-        public List<Type> Get()
+        public List<TypeItem> Get()
         {
-            throw new NotImplementedException();
+            return iTypeRepository.Get();
         }
 
-        public Type Get(int id)
+        public TypeItem Get(int id)
         {
-            throw new NotImplementedException();
+            return iTypeRepository.Get(id);
         }
 
-        public List<Type> GetSearch(string values)
+        public List<TypeItem> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iTypeRepository.GetSearch(values);
         }
 
         public bool Insert(TypeVM typeVM)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(typeVM.Name))
+            {
+                return status;
+            }
+            else
+            {
+                return iTypeRepository.Insert(typeVM);
+            }
         }
 
         public bool Update(int id, TypeVM typeVM)
         {
-            throw new NotImplementedException();
+            return iTypeRepository.Update(id, typeVM);
         }
     }
 }

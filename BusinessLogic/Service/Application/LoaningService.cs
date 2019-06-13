@@ -1,43 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
+using Common.Repository;
+using Common.Repository.Application;
 
 namespace BusinessLogic.Service.Application
 {
     public class LoaningService : ILoaningService
     {
+        ILoaningRepository iLoaningRepository = new LoaningRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iLoaningRepository.Delete(id);
         }
 
         public List<Loaning> Get()
         {
-            throw new NotImplementedException();
+            return iLoaningRepository.Get();
         }
 
         public Loaning Get(int id)
         {
-            throw new NotImplementedException();
+            return iLoaningRepository.Get(id);
         }
 
         public List<Loaning> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iLoaningRepository.GetSearch(values);
         }
 
         public bool Insert(LoaningVM loaningVM)
         {
-            throw new NotImplementedException();
+            if (loaningVM.DateLoaning==null)
+            {
+                return status;
+            }
+            else
+            {
+                return iLoaningRepository.Insert(loaningVM);
+            }
         }
 
         public bool Update(int id, LoaningVM loaningVM)
         {
-            throw new NotImplementedException();
+            return iLoaningRepository.Update(id, loaningVM);
         }
     }
 }

@@ -1,43 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
+using Common.Repository;
+using Common.Repository.Application;
 
 namespace BusinessLogic.Service.Application
 {
     public class ProcurementService : IProcurementService
     {
+        IProcurementRepository iProcurementRepository = new ProcurementRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iProcurementRepository.Delete(id);
         }
 
         public List<Procurement> Get()
         {
-            throw new NotImplementedException();
+            return iProcurementRepository.Get();
         }
 
         public Procurement Get(int id)
         {
-            throw new NotImplementedException();
+            return iProcurementRepository.Get(id);
         }
 
         public List<Procurement> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iProcurementRepository.GetSearch(values);
         }
 
         public bool Insert(ProcurementVM procurementVM)
         {
-            throw new NotImplementedException();
+            if (procurementVM.Status == null)
+            {
+                return status;
+            }
+            else
+            {
+                return iProcurementRepository.Insert(procurementVM);
+            }
         }
 
         public bool Update(int id, ProcurementVM procurementVM)
         {
-            throw new NotImplementedException();
+            return iProcurementRepository.Update(id, procurementVM);
         }
     }
 }

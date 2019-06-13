@@ -17,7 +17,7 @@ namespace DataAccess.Models
         public int Price { get; set; }
         [ForeignKey("Type")]
         public int Type_Id { get; set; }
-        public Type Type { get; set; }
+        public TypeItem Type { get; set; }
         public Item() { }
         public Item(ItemVM itemVM)
         {

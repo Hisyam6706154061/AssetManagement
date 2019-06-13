@@ -1,43 +1,51 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
+using Common.Repository;
+using Common.Repository.Application;
 
 namespace BusinessLogic.Service.Application
 {
     public class HandoverService : IHandoverService
     {
+        IHandoverRepository iHandoverRepository = new HandoverRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iHandoverRepository.Delete(id);
         }
 
         public List<Handover> Get()
         {
-            throw new NotImplementedException();
+            return iHandoverRepository.Get();
         }
 
         public Handover Get(int id)
         {
-            throw new NotImplementedException();
+            return iHandoverRepository.Get(id);
         }
 
         public List<Handover> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iHandoverRepository.GetSearch(values);
         }
 
         public bool Insert(HandoverVM handoverVM)
         {
-            throw new NotImplementedException();
+            if (handoverVM.DateHandover == null)
+            {
+                return status;
+            }
+            else
+            {
+                return iHandoverRepository.Insert(handoverVM);
+            }
         }
 
         public bool Update(int id, HandoverVM handoverVM)
         {
-            throw new NotImplementedException();
+            return iHandoverRepository.Update(id, handoverVM);
         }
     }
 }

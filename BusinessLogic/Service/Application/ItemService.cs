@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
 using Common.Repository;
@@ -16,33 +13,39 @@ namespace BusinessLogic.Service.Application
         bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iItemRepository.Delete(id);
 
         }
 
         public List<Item> Get()
         {
-            throw new NotImplementedException();
+            return iItemRepository.Get();
         }
 
         public Item Get(int id)
         {
-            throw new NotImplementedException();
+            return iItemRepository.Get(id);
         }
 
         public List<Item> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iItemRepository.GetSearch(values);
         }
 
         public bool Insert(ItemVM itemVM)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(itemVM.Name))
+            {
+                return status;
+            }else
+            {
+                return iItemRepository.Insert(itemVM);
+            }
         }
 
         public bool Update(int id, ItemVM itemVM)
         {
-            throw new NotImplementedException();
+            return iItemRepository.Update(id, itemVM);
         }
     }
 }

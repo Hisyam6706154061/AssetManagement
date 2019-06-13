@@ -1,43 +1,50 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
+using Common.Repository;
+using Common.Repository.Application;
 
 namespace BusinessLogic.Service.Application
 {
     public class ReturnService : IReturnService
     {
+        IReturnRepository iReturnRepository = new ReturnRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iReturnRepository.Delete(id);
         }
 
         public List<Return> Get()
         {
-            throw new NotImplementedException();
+            return iReturnRepository.Get();
         }
 
         public Return Get(int id)
         {
-            throw new NotImplementedException();
+            return iReturnRepository.Get(id);
         }
 
         public List<Return> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iReturnRepository.GetSearch(values);
         }
 
-        public bool Insert(ReturnVM loaningVM)
+        public bool Insert(ReturnVM returnVM)
         {
-            throw new NotImplementedException();
+            if (returnVM.DateReturn == null)
+            {
+                return status;
+            }else
+            {
+                return iReturnRepository.Insert(returnVM);
+            }
         }
 
         public bool Update(int id, ReturnVM returnVM)
         {
-            throw new NotImplementedException();
+            return iReturnRepository.Update(id, returnVM);
         }
     }
 }

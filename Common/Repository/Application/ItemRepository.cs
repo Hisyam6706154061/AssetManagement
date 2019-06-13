@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
 using DataAccess.Context;
@@ -13,7 +11,6 @@ namespace Common.Repository.Application
     public class ItemRepository : IItemRepository
     {
         MyContext myContext = new MyContext();
-
         bool status = false;
         public bool Delete(int id)
         {
@@ -77,7 +74,18 @@ namespace Common.Repository.Application
 
         public bool Update(int id, ItemVM itemVM)
         {
-            throw new NotImplementedException();
+            var get = Get(id);
+            if(get != null)
+            {
+                get.Update(id, itemVM);
+                myContext.Entry(get).State = EntityState.Modified;
+                myContext.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

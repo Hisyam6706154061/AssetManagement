@@ -9,7 +9,7 @@ namespace BusinessLogic.Service
         List<Return> Get();
         List<Return> GetSearch(string values);
         Return Get(int id);
-        bool Insert(ReturnVM loaningVM);
+        bool Insert(ReturnVM returnVM);
         bool Update(int id, ReturnVM returnVM);
         bool Delete(int id);
     }

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DataAccess.ViewModels;
+﻿using System.Collections.Generic;
+using DataAccess.Models;
 using DataAccess.Context;
+using DataAccess.ViewModels;
+using System.Linq;
+using System.Data.Entity;
 
 namespace Common.Repository.Application
 {
@@ -14,32 +13,67 @@ namespace Common.Repository.Application
         bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var get = Get(id);
+            if (get != null)
+            {
+                get.Delete();
+                myContext.Entry(get).State = EntityState.Modified;
+                myContext.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public List<Type> Get()
+        public List<TypeItem> Get()
         {
-            throw new NotImplementedException();
+            var get = myContext.Type.Where(X => X.IsDelete == false).ToList();
+            return get;
         }
 
-        public Type Get(int id)
+        public TypeItem Get(int id)
         {
-            throw new NotImplementedException();
+            var get = myContext.Type.Find(id);
+            return get;
         }
 
-        public List<Type> GetSearch(string values)
+        public List<TypeItem> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            var get = myContext.Type.Where(x => (x.Name.Contains(values) || x.Id.ToString().Contains(values)) && x.IsDelete == false).ToList();
+            return get;
         }
 
         public bool Insert(TypeVM typeVM)
         {
-            throw new NotImplementedException();
+            var push = new TypeItem(typeVM);
+            myContext.Type.Add(push);
+            var result = myContext.SaveChanges();
+            if (result > 0)
+            {
+                status = true;
+            }else
+            {
+                return status;
+            }
+            return status;
         }
 
         public bool Update(int id, TypeVM typeVM)
         {
-            throw new NotImplementedException();
+            var get = Get(id);
+            if (get != null)
+            {
+                get.Update(id, typeVM);
+                myContext.Entry(get).State = EntityState.Modified;
+                myContext.SaveChanges();
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

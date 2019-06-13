@@ -5,39 +5,50 @@ using System.Text;
 using System.Threading.Tasks;
 using DataAccess.Models;
 using DataAccess.ViewModels;
+using Common.Repository;
+using Common.Repository.Application;
 
 namespace BusinessLogic.Service.Application
 {
     public class ParameterService : IParameterService
     {
+        IParameterRepository iParameterRepository = new ParameterRepository();
+        bool status = false;
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            return iParameterRepository.Delete(id);
         }
 
         public List<Parameter> Get()
         {
-            throw new NotImplementedException();
+            return iParameterRepository.Get();
         }
 
         public Parameter Get(int id)
         {
-            throw new NotImplementedException();
+            return iParameterRepository.Get(id);
         }
 
         public List<Parameter> GetSearch(string values)
         {
-            throw new NotImplementedException();
+            return iParameterRepository.GetSearch(values);
         }
 
         public bool Insert(ParameterVM parameterVM)
         {
-            throw new NotImplementedException();
+            if (string.IsNullOrWhiteSpace(parameterVM.Name))
+            {
+                return status;
+            }
+            else
+            {
+                return iParameterRepository.Insert(parameterVM);
+            }
         }
 
         public bool Update(int id, ParameterVM parameterVM)
         {
-            throw new NotImplementedException();
+            return iParameterRepository.Update(id, parameterVM);
         }
     }
 }

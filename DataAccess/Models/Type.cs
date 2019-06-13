@@ -6,11 +6,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace DataAccess.Models
 {
     [Table("TB_M_Type")]
-    public class Type : BaseModel
+    public class TypeItem : BaseModel
     {
         public string Name { get; set; }
-        public Type() { }
-        public Type(TypeVM typeVM)
+        public TypeItem() { }
+        public TypeItem(TypeVM typeVM)
         {
             this.Name = typeVM.Name;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
