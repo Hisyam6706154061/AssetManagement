@@ -19,3 +19,25 @@ C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\DataAccess\o
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\DataAccess\obj\Debug\DataAccess.exe
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\DataAccess\obj\Debug\DataAccess.pdb
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\DataAccess\obj\Debug\DataAccess.Migrations.MasukinSemuaModel.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\DataAccess.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\DataAccess.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\Core.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\Core.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\MainWindow.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\App.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess_MarkupCompile.cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess_MarkupCompile.lref
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\MainWindow.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.g.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.Migrations.MasukinSemuaModel.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.Migrations.AssetManagement.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.Properties.Resources.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\DataAccess\obj\Debug\DataAccess.pdb

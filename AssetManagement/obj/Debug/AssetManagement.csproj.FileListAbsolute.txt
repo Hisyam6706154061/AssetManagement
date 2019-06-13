@@ -16,3 +16,26 @@ C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagem
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb
 E:\Tugas Baru\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\DashboardEmployee.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\MainWindow.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\App.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.lref
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\App.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\DashboardEmployee.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\MainWindow.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.g.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Properties.Resources.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csproj.GenerateResource.Cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb

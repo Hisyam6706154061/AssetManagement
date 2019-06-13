@@ -10,12 +10,16 @@ namespace DataAccess.Models
     {
         public string Name { get; set; }
         public int Role { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
         public int HeadDivision_Id { get; set; }
         public User() { }
         public User(UserVM userVM)
         {
             this.Name = userVM.Name;
             this.Role = userVM.Role;
+            this.Email = userVM.Email;
+            this.Password = userVM.Password;
             this.HeadDivision_Id = userVM.HeadDivision_Id;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
         }
@@ -24,6 +28,8 @@ namespace DataAccess.Models
             this.Id = id;
             this.Name = userVM.Name;
             this.Role = userVM.Role;
+            this.Email = userVM.Email;
+            this.Password = userVM.Password;
             this.HeadDivision_Id = userVM.HeadDivision_Id;
             this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
         }

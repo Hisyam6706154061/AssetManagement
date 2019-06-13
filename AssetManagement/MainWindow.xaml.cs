@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Common.Repository.Application;
+using DataAccess.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,21 @@ namespace AssetManagement
     /// </summary>
     public partial class MainWindow : Window
     {
+        MyContext myContext = new MyContext();
         public MainWindow()
         {
             InitializeComponent();
+        }
+        private void btn_login_Click(object sender, RoutedEventArgs e)
+        {
+            Login();
+        }
+        private void Login()
+        {
+            LoginRepository loginRepository = new LoginRepository();
+            if (loginRepository.CheckLogin(txb_email.Text, pwb_password.Password) == true)
+            {
+            }
         }
     }
 }
