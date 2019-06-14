@@ -41,17 +41,17 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_DashboardAdmin" Content="Dashboard" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="btn_logout" Click="btn_logout_Click" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
-                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
                         <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
                     </StackPanel>
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="158,27,0,0" VerticalAlignment="Top" Height="202" Width="337">
+        <DataGrid x:Name="dataGrid_NotificationHD" HorizontalAlignment="Left" Margin="158,27,0,0" VerticalAlignment="Top" Height="202" Width="337">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID"/>
                 <DataGridTextColumn Header="Form Type"/>

@@ -8,10 +8,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/dashboard.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/loaning.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/notifications-button.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/return.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/userlogin.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/database.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/handover.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/logout-rounded.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/logout.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/logout2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("asset/search.png")]
 
 

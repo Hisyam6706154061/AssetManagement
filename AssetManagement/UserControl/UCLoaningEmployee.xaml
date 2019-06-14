@@ -52,7 +52,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_LoaningEmployee" Content="Loaning" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="btn_logout" Click="btn_logout_Click" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
@@ -63,26 +63,26 @@
             </Button.Template>
         </Button>
         <TextBlock x:Name="txt_LoaningId" TextWrapping="Wrap" Text="Loaning Id" Margin="164,32,258,248" FontSize="12"/>
-        <TextBox x:Name="txb_LoaningId" TextWrapping="Wrap" Text="" Width="120" Margin="252,32,123,249" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_LoaningId" TextWrapping="Wrap" Text="" Width="120" Margin="252,32,123,249" TextChanged="txb_LoaningId_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_Date_Loaning" TextWrapping="Wrap" Text="Date Loaning" Margin="164,58,258,222" FontSize="12"/>
         <DatePicker x:Name="datePicker_DateLoaning" Margin="252,56,123,223" Background="{x:Null}"/>
         <TextBlock x:Name="txt_Date_Loaning_Return" TextWrapping="Wrap" Text="Date Return" Margin="163,85,259,195" FontSize="12"/>
         <DatePicker x:Name="datePicker_DateReturn" Margin="252,82,123,197" Background="{x:Null}"/>
         <TextBlock x:Name="txt_ItemId" TextWrapping="Wrap" Text="Item Id" Margin="163,110,259,170" FontSize="12"/>
-        <TextBox x:Name="txb_SearchItemId" TextWrapping="Wrap" Text="" Margin="252,108,175,173" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
-        <Button x:Name="btn_SearchItemId" Click="btn_SearchItemId_Click"  Margin="325,108,143,173">
+        <TextBox x:Name="txb_SearchItemId" TextWrapping="Wrap" Text="" Margin="252,108,175,173" TextChanged="txb_SearchItemId_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_SearchItemId" Click="btn_SearchItemId_Click" Margin="325,108,143,173">
             <Button.Template>
                 <ControlTemplate>
-                    <Image Source=C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\search.png" x:Name="img_search"  Height="13" Margin="0,0,0,0" VerticalAlignment="Center" Width="25"/>
+                    <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\search.png" x:Name="img_search"  Height="13" Margin="0,0,0,0" VerticalAlignment="Center" Width="25"/>
                 </ControlTemplate>
             </Button.Template>
         </Button>
         <TextBlock x:Name="txt_NameItem" TextWrapping="Wrap" Text="Name Item" Margin="164,134,258,146" FontSize="12"/>
-        <TextBox x:Name="txb_NameItem" TextWrapping="Wrap" Text="" Width="120" Margin="252,132,123,149" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_NameItem" TextWrapping="Wrap" Text="" Width="120" Margin="252,132,123,149" TextChanged="txb_NameItem_TextChanged_1" Background="{x:Null}"/>
         <TextBlock x:Name="txt_Quantity" TextWrapping="Wrap" Text="Quantity" Margin="164,157,258,123" FontSize="12"/>
-        <TextBox x:Name="txb_Quantity" TextWrapping="Wrap" Text="" Width="120" Margin="252,156,123,125" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
-        <Button x:Name="btn_AddorEdit" Content="Add Or Edit" Width="75" Margin="397,157,23,121" Click="btn_AddorEdit_Click" Background="#FF1BF02E"/>
-        <Button x:Name="btn_Delete" Content="Delete" Width="75" Margin="397,190,23,88" Click="btn_Delete_Click" Background="#FFF0E61B"/>
+        <TextBox x:Name="txb_Quantity" TextWrapping="Wrap" Text="" Width="120" Margin="252,156,123,125" TextChanged="txb_Quantity_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_AddorEdit" Click="btn_AddorEdit_Click" Content="Add Or Edit" Width="75" Margin="397,157,23,121" Background="#FF1BF02E"/>
+        <Button x:Name="btn_Delete" Click="btn_Delete_Click" Content="Delete" Width="75" Margin="397,190,23,88" Background="#FFF0E61B"/>
         <DataGrid x:Name="dataGrid_Loaning" Height="100" Margin="164,190,115,10">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Item Id"/>
@@ -90,6 +90,6 @@
                 <DataGridTextColumn Header="Quantity"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="btn_Send" Content="Send" Width="75" Margin="397,268,23,10" Click="btn_Send_Click" Background="#FF1414E4"/>
+        <Button x:Name="btn_Send" Click="btn_Send_Click" Content="Send" Width="75" Margin="397,268,23,10" Background="#FF1414E4"/>
     </Grid>
 </UserControl>

@@ -27,13 +27,13 @@
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <!--Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\database.png" Width="Auto" Height="20" VerticalAlignment="Top"/-->
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\database.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_DataItem"  Text="Data Item" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <!--Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\bookmark-black-shape.png" Width="Auto" Height="20" VerticalAlignment="Top"/-->
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\bookmark-black-shape.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_Procurement" Text="Procurement" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
@@ -53,11 +53,11 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_DashboardAdmin" Content="Dashboard" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
-                        <!--Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/-->
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
                         <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
                     </StackPanel>
                 </ControlTemplate>

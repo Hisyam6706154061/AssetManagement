@@ -27,10 +27,54 @@ namespace AssetManagement.UserControl
 
         private void btn_SearchLoaningId_Click(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
 
         }
 
-        private void btn_SearchReturnId_Click(object sender, RoutedEventArgs e)
+        private void btn_logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverLoaningId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverUserId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverNameUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverItemId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_HandoverNameItem_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_NameItem_Copy_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btn_Send_Click(object sender, RoutedEventArgs e)
         {
 
         }

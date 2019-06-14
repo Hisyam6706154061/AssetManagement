@@ -43,6 +43,7 @@ namespace BusinessLogic.Service.Application
             }
         }
 
+
         public bool Update(int id, LoaningVM loaningVM)
         {
             return iLoaningRepository.Update(id, loaningVM);

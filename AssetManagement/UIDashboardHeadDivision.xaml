@@ -41,7 +41,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_DashboardAdmin" Content="Dashboard" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">

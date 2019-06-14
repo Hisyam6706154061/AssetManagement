@@ -53,7 +53,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_NotificationEmployee" Content="Notification" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="btn_logout" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_logout_Click">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
@@ -63,7 +63,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Margin="158,28,0,0" VerticalAlignment="Top" Height="210" Width="337">
+        <DataGrid x:Name="dataGrid_NotifEmployee" HorizontalAlignment="Left" Margin="158,28,0,0" VerticalAlignment="Top" Height="210" Width="337">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID"/>
                 <DataGridTextColumn Header="Form Type"/>
@@ -71,7 +71,7 @@
                 <DataGridTextColumn Header="Date"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="btn_NotificationEdit" Content="Edit" HorizontalAlignment="Left" Margin="324,261,0,0" VerticalAlignment="Top" Width="75" Background="#FF22D132"/>
-        <Button x:Name="btn_NotificationDelete" Content="Delete" HorizontalAlignment="Left" Margin="410,261,0,0" VerticalAlignment="Top" Width="75" Background="#FFD83232"/>
+        <Button x:Name="btn_NotificationEdit" Click="btn_NotificationEdit_Click" Content="Edit" HorizontalAlignment="Left" Margin="324,261,0,0" VerticalAlignment="Top" Width="75" Background="#FF22D132"/>
+        <Button x:Name="btn_NotificationDelete" Click="btn_NotificationDelete_Click" Content="Delete" HorizontalAlignment="Left" Margin="410,261,0,0" VerticalAlignment="Top" Width="75" Background="#FFD83232"/>
     </Grid>
 </UserControl>

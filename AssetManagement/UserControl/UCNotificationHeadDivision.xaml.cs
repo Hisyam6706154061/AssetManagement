@@ -24,11 +24,6 @@ namespace AssetManagement.UserControl
         {
             InitializeComponent();
         }
-        
-        private void btn_NotificationHDEdit_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void btn_NotificationHDApprove_Click(object sender, RoutedEventArgs e)
         {
@@ -39,5 +34,25 @@ namespace AssetManagement.UserControl
         {
 
         }
+
+        private void btn_logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+        /*
+private void btn_NotificationHDEdit_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_NotificationHDApprove_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_NotificationHDReject_Click(object sender, RoutedEventArgs e)
+{
+
+}*/
     }
 }

@@ -53,7 +53,7 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_HandoverEmployee" Content="Handover" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="btn_logout" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="btn_logout_Click">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
@@ -64,12 +64,12 @@
             </Button.Template>
         </Button>
         <TextBlock x:Name="txt_HandoverId" TextWrapping="Wrap" Text="Handover Id" Margin="164,32,258,248" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverId" TextWrapping="Wrap" Text="" Width="120" Margin="252,32,123,249" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_HandoverId" TextWrapping="Wrap" Text="" Width="120" Margin="252,32,123,249" TextChanged="txb_HandoverId_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_Date" TextWrapping="Wrap" Text="Date" Margin="164,58,258,222" FontSize="12"/>
         <DatePicker Margin="252,56,123,223" Background="{x:Null}"/>
         <TextBlock x:Name="txt_HandoverLoaningId" TextWrapping="Wrap" Text="Loaning Id" Margin="163,87,259,193" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverLoaningId" TextWrapping="Wrap" Text="" Margin="252,85,175,196" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
-        <Button x:Name="btn_SearchLoaningId" Click="btn_SearchLoaningId_Click"  Margin="326,86,142,195">
+        <TextBox x:Name="txb_HandoverLoaningId" TextWrapping="Wrap" Text="" Margin="252,85,175,196" TextChanged="txb_HandoverLoaningId_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_SearchLoaningId" Margin="326,86,142,195" Click="btn_SearchLoaningId_Click" >
             <Button.Template>
                 <ControlTemplate>
                     <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\search.png" x:Name="img_search"  Height="13" Margin="0,0,0,0" VerticalAlignment="Center" Width="25"/>
@@ -78,15 +78,15 @@
         </Button>
 
         <TextBlock x:Name="txt_HandoverUserId" TextWrapping="Wrap" Text="User Id" Margin="164,143,258,137" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverUserId" TextWrapping="Wrap" Text="" Margin="252,138,175,143" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_HandoverUserId" TextWrapping="Wrap" Text="" Margin="252,138,175,143" TextChanged="txb_HandoverUserId_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_HandoverNameUser" TextWrapping="Wrap" Text="Name User" Margin="326,140,96,140" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverNameUser" TextWrapping="Wrap" Text="" Margin="391,138,3,143" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_HandoverNameUser" TextWrapping="Wrap" Text="" Margin="391,138,3,143" TextChanged="txb_HandoverNameUser_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_HandoverItemId" TextWrapping="Wrap" Text="Name Id" Margin="164,167,258,113" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverItemId" TextWrapping="Wrap" Text="" Margin="252,165,175,116" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_HandoverItemId" TextWrapping="Wrap" Text="" Margin="252,165,175,116" TextChanged="txb_HandoverItemId_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_HandoverNameItem" TextWrapping="Wrap" Text="Name Item" Margin="326,167,96,113" FontSize="12"/>
-        <TextBox x:Name="txb_HandoverNameItem" TextWrapping="Wrap" Text="" Margin="391,165,3,116" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBox x:Name="txb_HandoverNameItem" TextWrapping="Wrap" Text="" Margin="391,165,3,116" TextChanged="txb_HandoverNameItem_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_Description" TextWrapping="Wrap" Text="Description" Margin="163,205,259,75" FontSize="12"/>
-        <TextBox x:Name="txb_NameItem_Copy" TextWrapping="Wrap" Text="" Margin="251,196,14,44" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
-        <Button x:Name="btn_Send" Content="Send" Width="75" Margin="397,268,23,10" Click="btn_Send_Click" Background="#FF1414E4"/>
+        <TextBox x:Name="txb_NameItem_Copy" TextWrapping="Wrap" Text="" Margin="251,196,14,44" TextChanged="txb_NameItem_Copy_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_Send" Content="Send" Width="75" Margin="391,261,29,7" Background="#FF1414E4" Click="btn_Send_Click" />
     </Grid>
 </UserControl>

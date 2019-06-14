@@ -24,5 +24,60 @@ namespace AssetManagement.UserControl
         {
             InitializeComponent();
         }
+
+        private void btn_logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txb_ProcurementId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_NameItemProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_BrandProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_ImageProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btn_ChooseImage_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txb_ImageProcurement_Copy_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_StockProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_PriceProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_QuantityProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_DescriptionProcurement_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

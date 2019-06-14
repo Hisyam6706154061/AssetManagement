@@ -24,5 +24,25 @@ namespace AssetManagement.UserControl
         {
             InitializeComponent();
         }
+
+        private void btn_logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_NotificationEdit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_NotificationDelete_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_logout_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

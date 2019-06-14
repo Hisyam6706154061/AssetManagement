@@ -95,6 +95,9 @@
     <Compile Include="UserControl\UCProcurementAdmin.xaml.cs">
       <DependentUpon>UCProcurementAdmin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControl\UCReturnAdmin.xaml.cs">
+      <DependentUpon>UCReturnAdmin.xaml</DependentUpon>
+    </Compile>
     <Page Include="DashboardEmployee.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -127,26 +130,30 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="UserControl\UCHandoverEmployee.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\UCLoaningEmployee.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\UCNotificationAdmin.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\UCNotificationEmployee.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\UCNotificationHeadDivision.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UserControl\UCProcurementAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCReturnAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -200,6 +207,17 @@
       <Project>{E1A36600-372E-45FA-8CDD-EE2D31D6A697}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\bookmark-black-shape.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Asset\database.png" />
+    <Resource Include="Asset\Handover.png" />
+    <Resource Include="Asset\logout-rounded.png" />
+    <Resource Include="Asset\logout.png" />
+    <Resource Include="Asset\logout2.png" />
+    <Resource Include="Asset\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

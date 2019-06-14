@@ -16,6 +16,22 @@ C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagem
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb
 E:\Tugas Baru\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\Common.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\DataAccess.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\Core.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\Common.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\DataAccess.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\Core.pdb
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csprojResolveAssemblyReference.cache
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\DashboardEmployee.g.cs
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\MainWindow.g.cs
@@ -28,7 +44,25 @@ C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetMan
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCNotificationEmployee.g.cs
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCNotificationHeadDivision.g.cs
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCProcurementAdmin.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCReturnAdmin.g.cs
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\App.g.cs
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.cache
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement_MarkupCompile.lref
-C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\bin\Debug\AssetManagement.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\App.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\DashboardEmployee.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\MainWindow.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UIDashboardAdmin.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UIDashboardHeadDivision.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UIDataItemAdmin.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCHandoverEmployee.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCLoaningEmployee.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCNotificationAdmin.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCNotificationEmployee.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCNotificationHeadDivision.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCProcurementAdmin.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\UserControl\UCReturnAdmin.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.g.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.Properties.Resources.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.csproj.GenerateResource.Cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\obj\Debug\AssetManagement.pdb

@@ -17,7 +17,7 @@
         </Rectangle>
         <TextBlock Text="Admin" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="55,5,356,0" Foreground="Black" FontSize="15" Width="76"/>
         <Image Source="/AssetManagement;component/Asset/userlogin.png" Width="Auto" Height="63" VerticalAlignment="Top" Margin="35,28,376,0"/>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="136" Margin="15,135,0,0" VerticalAlignment="Top" Width="129">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="145" Margin="15,135,0,0" VerticalAlignment="Top" Width="129">
             <ListView>
                 <ListViewItem Height="28" Background="Blue">
                     <StackPanel Orientation="Horizontal">
@@ -27,7 +27,7 @@
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement;component/Asset/database.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <Image Source="/AssetManagement;component/Asset/database.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_DataItem"  Text="Data Item" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
@@ -35,6 +35,12 @@
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/AssetManagement;component/Asset/bookmark-black-shape.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_Procurement" Text="Procurement" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\return.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_ReturnAdmin" Text="Return" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
@@ -53,38 +59,38 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_ProcurementAdmin" Content="Procurement" HorizontalAlignment="Left" Margin="163,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="btn_logout" Click="btn_logout_Click" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
-                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement;component/Asset/logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
+                        <Image Source="/AssetManagement;component/Asset/logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
                         <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
                     </StackPanel>
                 </ControlTemplate>
             </Button.Template>
         </Button>
         <TextBlock x:Name="txt_ProcurementId" HorizontalAlignment="Left" Margin="168,34,0,0" TextWrapping="Wrap" Text="Procurement Id" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_ProcurementId" HorizontalAlignment="Left" Height="18" Margin="271,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="{x:Null}"/>
+        <TextBox x:Name="txb_ProcurementId" HorizontalAlignment="Left" Height="18" Margin="271,32,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txb_ProcurementId_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_NameItemProcurement" HorizontalAlignment="Left" Margin="168,58,0,0" TextWrapping="Wrap" Text="Name Item" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_NameItemProcurement" HorizontalAlignment="Left" Height="18" Margin="271,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
+        <TextBox x:Name="txb_NameItemProcurement" HorizontalAlignment="Left" Height="18" Margin="271,55,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TextChanged="txb_NameItemProcurement_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_BrandProcurement" HorizontalAlignment="Left" Margin="168,81,0,0" TextWrapping="Wrap" Text="Brand" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_BrandProcurement" HorizontalAlignment="Left" Height="18" Margin="271,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
+        <TextBox x:Name="txb_BrandProcurement" HorizontalAlignment="Left" Height="18" Margin="271,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TextChanged="txb_BrandProcurement_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_ImageProcurement" HorizontalAlignment="Left" Margin="168,103,0,0" TextWrapping="Wrap" Text="Image" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_ImageProcurement" HorizontalAlignment="Left" Height="18" Margin="271,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101" Background="{x:Null}"/>
-        <Button x:Name="btn_ChooseImage" Content="Choose" HorizontalAlignment="Left" Margin="377,102,0,0" VerticalAlignment="Top" Width="69" Height="18" Background="#FF0FA4DC"/>
+        <TextBox x:Name="txb_ImageProcurement" HorizontalAlignment="Left" Height="18" Margin="271,102,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="101" TextChanged="txb_ImageProcurement_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_ChooseImage" Click="btn_ChooseImage_Click" Content="Choose" HorizontalAlignment="Left" Margin="377,102,0,0" VerticalAlignment="Top" Width="69" Height="18" Background="#FF0FA4DC"/>
         <TextBlock x:Name="txt_Condition" HorizontalAlignment="Left" Margin="168,127,0,0" TextWrapping="Wrap" Text="Condition" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_ImageProcurement_Copy" HorizontalAlignment="Left" Height="18" Margin="271,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="{x:Null}"/>
+        <TextBox x:Name="txb_ImageProcurement_Copy" HorizontalAlignment="Left" Height="18" Margin="271,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txb_ImageProcurement_Copy_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_TypeItemProcurement" HorizontalAlignment="Left" Margin="168,149,0,0" TextWrapping="Wrap" Text="Type Item" VerticalAlignment="Top" FontSize="12"/>
         <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="271,148,0,0" VerticalAlignment="Top" Width="120" Height="18"/>
         <TextBlock x:Name="txt_StockProcurement" HorizontalAlignment="Left" Margin="168,173,0,0" TextWrapping="Wrap" Text="Stock" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_StockProcurement" HorizontalAlignment="Left" Height="18" Margin="271,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="{x:Null}"/>
+        <TextBox x:Name="txb_StockProcurement" HorizontalAlignment="Left" Height="18" Margin="271,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txb_StockProcurement_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_PriceProcurement" HorizontalAlignment="Left" Margin="168,196,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_PriceProcurement" HorizontalAlignment="Left" Height="18" Margin="271,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="{x:Null}"/>
+        <TextBox x:Name="txb_PriceProcurement" HorizontalAlignment="Left" Height="18" Margin="271,194,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txb_PriceProcurement_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_QuantityProcurement" HorizontalAlignment="Left" Margin="168,218,0,0" TextWrapping="Wrap" Text="Quantity" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_QuantityProcurement" HorizontalAlignment="Left" Height="18" Margin="271,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Background="{x:Null}"/>
+        <TextBox x:Name="txb_QuantityProcurement" HorizontalAlignment="Left" Height="18" Margin="271,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txb_QuantityProcurement_TextChanged" Background="{x:Null}"/>
         <TextBlock x:Name="txt_DescriptionProcurement" HorizontalAlignment="Left" Margin="168,260,0,0" TextWrapping="Wrap" Text="Description" VerticalAlignment="Top" FontSize="12"/>
-        <TextBox x:Name="txb_DescriptionProcurement" HorizontalAlignment="Left" Height="65" Margin="271,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" Background="{x:Null}"/>
-        <Button x:Name="btn_SendProcurement" Content="Send" HorizontalAlignment="Left" Margin="391,321,0,0" VerticalAlignment="Top" Width="75" Click="btn_SendProcurement_Click" Background="#FF3357F5"/>
+        <TextBox x:Name="txb_DescriptionProcurement" HorizontalAlignment="Left" Height="65" Margin="271,240,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="175" TextChanged="txb_DescriptionProcurement_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_SendProcurement" Content="Send" HorizontalAlignment="Left" Margin="402,315,0,0" VerticalAlignment="Top" Width="75"  Background="#FF3357F5"/>
 
     </Grid>
 </UserControl>

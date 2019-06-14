@@ -16,30 +16,30 @@
             </Rectangle.Fill>
         </Rectangle>
         <TextBlock Text="Admin" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="64,3,460,0" Foreground="Black" FontSize="15" Width="76"/>
-        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\userlogin.png" Width="Auto" Height="63" VerticalAlignment="Top" Margin="-13,25,424,0"/>
+        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\userlogin.png" Width="Auto" Height="63" VerticalAlignment="Top" Margin="-13,25,424,0"/>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="136" Margin="10,106,0,0" VerticalAlignment="Top" Width="129">
             <ListView>
                 <ListViewItem Height="28" Background="Blue">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\dashboard.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\dashboard.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_DashboardAdmin" Text="Dashboard" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\database.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\database.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_DataItem"  Text="Data Item" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\bookmark-black-shape.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\bookmark-black-shape.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_Procurement" Text="Procurement" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
                 <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\notifications-button.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\notifications-button.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
                         <TextBlock x:Name="txt_NotifAdmin" Text="Notification" VerticalAlignment="Center" Margin="3,0,0,0"/>
                     </StackPanel>
                 </ListViewItem>
@@ -53,11 +53,11 @@
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lbl_DataItemAdmin" Content="Data Item" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
-        <Button x:Name="button" HorizontalAlignment="Left" Margin="502,5,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="502,5,0,0" VerticalAlignment="Top" Width="75" Height="20">
             <Button.Template>
                 <ControlTemplate>
                     <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
-                        <Image Source="E:\Tugas Baru\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image" Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
                         <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
                     </StackPanel>
                 </ControlTemplate>
@@ -75,6 +75,6 @@
                 <DataGridTextColumn Header="Price"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="btn_EditDataItemAdmin" Click="btn_EditDataItemAdmin_Click" Content="Edit" HorizontalAlignment="Left" Margin="470,257,0,0" VerticalAlignment="Top" Width="75" Background="#FFE8D410"/>
+        <Button x:Name="btn_EditDataItemAdmin" Content="Edit" HorizontalAlignment="Left" Margin="470,257,0,0" VerticalAlignment="Top" Width="75" Background="#FFE8D410"/>
     </Grid>
 </Window>

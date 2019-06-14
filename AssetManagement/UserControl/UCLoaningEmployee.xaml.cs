@@ -24,7 +24,18 @@ namespace AssetManagement.UserControl
         {
             InitializeComponent();
         }
-        private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+
+        private void btn_logout_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void txb_LoaningId_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_SearchItemId_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
@@ -34,12 +45,22 @@ namespace AssetManagement.UserControl
 
         }
 
-        private void btn_Add_Click(object sender, RoutedEventArgs e)
+        private void txb_NameItem_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void btn_Send_Click(object sender, RoutedEventArgs e)
+        private void txb_NameItem_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txb_Quantity_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void btn_AddorEdit_Click(object sender, RoutedEventArgs e)
         {
 
         }
@@ -49,9 +70,39 @@ namespace AssetManagement.UserControl
 
         }
 
-        private void btn_AddorEdit_Click(object sender, RoutedEventArgs e)
+        private void btn_Send_Click(object sender, RoutedEventArgs e)
         {
 
         }
+        /*
+private void textBox_TextChanged(object sender, TextChangedEventArgs e)
+{
+
+}
+
+private void btn_SearchItemId_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_Add_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_Send_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_Delete_Click(object sender, RoutedEventArgs e)
+{
+
+}
+
+private void btn_AddorEdit_Click(object sender, RoutedEventArgs e)
+{
+
+}*/
     }
 }

@@ -33,7 +33,7 @@ namespace BusinessLogic.Service.Application
 
         public bool Insert(ProcurementVM procurementVM)
         {
-            if (procurementVM.Status == null)
+            if (procurementVM.Status == 0)
             {
                 return status;
             }

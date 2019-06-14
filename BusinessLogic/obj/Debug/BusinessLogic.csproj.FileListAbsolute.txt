@@ -15,3 +15,27 @@ C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\BusinessLogi
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.GenerateResource.Cache
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.exe
 C:\Users\vais\documents\visual studio 2015\Projects\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\BusinessLogic.exe.config
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\BusinessLogic.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\Common.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\Core.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\DataAccess.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\EntityFramework.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\Common.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\Core.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\DataAccess.pdb
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\EntityFramework.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\MainWindow.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\App.g.cs
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic_MarkupCompile.cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic_MarkupCompile.lref
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\MainWindow.baml
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.g.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.Properties.Resources.resources
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.csproj.GenerateResource.Cache
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.exe
+C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\BusinessLogic\obj\Debug\BusinessLogic.pdb
