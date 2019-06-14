@@ -1,0 +1,92 @@
+﻿<UserControl x:Class="AssetManagement.UserControl.UCHandoverEmployee"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AssetManagement.UserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="495.113">
+    <Grid>
+        <Rectangle Margin="0,0,337,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF00E8FF" Offset="0"/>
+                    <GradientStop Color="Blue" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock Text="Employee" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="38,3,373,0" Foreground="Black" FontSize="15" Width="76"/>
+        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\userlogin.png" Width="Auto" Height="63" VerticalAlignment="Top" Margin="35,28,376,0"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="136" Margin="10,106,0,0" VerticalAlignment="Top" Width="129">
+            <ListView>
+                <ListViewItem Height="28" Background="Blue">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\dashboard.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Dasboard1" Text="Dashboard" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\loaning.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Loaning1"  Text="Loaning" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\Handover.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Handover" Text="Handover" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem Height="28" Background="Blue" Margin="0,0,0,0">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\notifications-button.png" Width="Auto" Height="20" VerticalAlignment="Top"/>
+                        <TextBlock x:Name="txt_Notif1" Text="Notification" VerticalAlignment="Center" Margin="3,0,0,0"/>
+                    </StackPanel>
+                </ListViewItem>
+            </ListView>
+        </StackPanel>
+        <Rectangle Height="27" Margin="158,0,0,0" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF3426BA"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label x:Name="lbl_HandoverEmployee" Content="Handover" HorizontalAlignment="Left" Margin="155,-3,0,0" VerticalAlignment="Top" FontSize="15" Foreground="White"/>
+        <Button x:Name="button" HorizontalAlignment="Left" Margin="402,3,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="button_Click">
+            <Button.Template>
+                <ControlTemplate>
+                    <StackPanel Orientation="Horizontal" Height="Auto" Width="Auto" Margin="0,0,1,2">
+                        <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\logout2.png" x:Name="image"  Height="13" Margin="5,4,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Width="25"/>
+                        <TextBlock x:Name="txt_Logout" TextWrapping="Wrap" Text="Logout" Margin="0,0,0,0" FontSize="12" Foreground="#FFF3F2F2" />
+                    </StackPanel>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        <TextBlock x:Name="txt_HandoverId" TextWrapping="Wrap" Text="Handover Id" Margin="164,32,258,248" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverId" TextWrapping="Wrap" Text="" Width="120" Margin="252,32,123,249" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_Date" TextWrapping="Wrap" Text="Date" Margin="164,58,258,222" FontSize="12"/>
+        <DatePicker Margin="252,56,123,223" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_HandoverLoaningId" TextWrapping="Wrap" Text="Loaning Id" Margin="163,87,259,193" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverLoaningId" TextWrapping="Wrap" Text="" Margin="252,85,175,196" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_SearchLoaningId" Click="btn_SearchLoaningId_Click"  Margin="326,86,142,195">
+            <Button.Template>
+                <ControlTemplate>
+                    <Image Source="C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\Asset\search.png" x:Name="img_search"  Height="13" Margin="0,0,0,0" VerticalAlignment="Center" Width="25"/>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <TextBlock x:Name="txt_HandoverUserId" TextWrapping="Wrap" Text="User Id" Margin="164,143,258,137" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverUserId" TextWrapping="Wrap" Text="" Margin="252,138,175,143" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_HandoverNameUser" TextWrapping="Wrap" Text="Name User" Margin="326,140,96,140" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverNameUser" TextWrapping="Wrap" Text="" Margin="391,138,3,143" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_HandoverItemId" TextWrapping="Wrap" Text="Name Id" Margin="164,167,258,113" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverItemId" TextWrapping="Wrap" Text="" Margin="252,165,175,116" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_HandoverNameItem" TextWrapping="Wrap" Text="Name Item" Margin="326,167,96,113" FontSize="12"/>
+        <TextBox x:Name="txb_HandoverNameItem" TextWrapping="Wrap" Text="" Margin="391,165,3,116" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <TextBlock x:Name="txt_Description" TextWrapping="Wrap" Text="Description" Margin="163,205,259,75" FontSize="12"/>
+        <TextBox x:Name="txb_NameItem_Copy" TextWrapping="Wrap" Text="" Margin="251,196,14,44" TextChanged="textBox_TextChanged" Background="{x:Null}"/>
+        <Button x:Name="btn_Send" Content="Send" Width="75" Margin="397,268,23,10" Click="btn_Send_Click" Background="#FF1414E4"/>
+    </Grid>
+</UserControl>

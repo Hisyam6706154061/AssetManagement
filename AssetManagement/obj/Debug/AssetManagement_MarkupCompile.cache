@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\vais\Documents\kerja\mii metrodata\DAILY TASK\dot net\Task Wpf\AssetManagement\AssetManagement\App.xaml
-2-79077893
+11-361581535
 
-6-1860809485
-17-1673013850
-DashboardEmployee.xaml;MainWindow.xaml;
+15805535156
+19-1618340682
+DashboardEmployee.xaml;MainWindow.xaml;UIDashboardAdmin.xaml;UIDashboardHeadDivision.xaml;UIDataItemAdmin.xaml;UserControl\UCHandoverEmployee.xaml;UserControl\UCLoaningEmployee.xaml;UserControl\UCNotificationAdmin.xaml;UserControl\UCNotificationEmployee.xaml;UserControl\UCNotificationHeadDivision.xaml;UserControl\UCProcurementAdmin.xaml;
 
-False
+True
 

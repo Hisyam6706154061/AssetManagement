@@ -43,8 +43,8 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.0.1205, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.0.1205\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -68,6 +68,33 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="UIDashboardAdmin.xaml.cs">
+      <DependentUpon>UIDashboardAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIDashboardHeadDivision.xaml.cs">
+      <DependentUpon>UIDashboardHeadDivision.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UIDataItemAdmin.xaml.cs">
+      <DependentUpon>UIDataItemAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCHandoverEmployee.xaml.cs">
+      <DependentUpon>UCHandoverEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCLoaningEmployee.xaml.cs">
+      <DependentUpon>UCLoaningEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationAdmin.xaml.cs">
+      <DependentUpon>UCNotificationAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationEmployee.xaml.cs">
+      <DependentUpon>UCNotificationEmployee.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCNotificationHeadDivision.xaml.cs">
+      <DependentUpon>UCNotificationHeadDivision.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCProcurementAdmin.xaml.cs">
+      <DependentUpon>UCProcurementAdmin.xaml</DependentUpon>
+    </Compile>
     <Page Include="DashboardEmployee.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -87,6 +114,42 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="UIDashboardAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIDashboardHeadDivision.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UIDataItemAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCHandoverEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCLoaningEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCNotificationAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCNotificationEmployee.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCNotificationHeadDivision.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\UCProcurementAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -106,7 +169,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
